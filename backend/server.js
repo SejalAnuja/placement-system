@@ -15,7 +15,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // ✅ Your frontend URL
+    origin: "https://placement-system-frontend.onrender.com", // ✅ Your frontend URL
     credentials: true,               // ✅ Allow cookies / tokens
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
