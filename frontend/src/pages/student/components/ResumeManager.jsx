@@ -34,7 +34,7 @@ export default function ResumeManager() {
     if (!url) return "";
     if (url.startsWith("http")) return url;
     // convert local server path to absolute accessible URL
-    return `http://localhost:5000/${url.replace(/\\/g, "/")}`;
+    return `srv-d3tftm75r7bs73epgci0/${url.replace(/\\/g, "/")}`;
   };
 
   // 🟢 Handle Resume Upload
