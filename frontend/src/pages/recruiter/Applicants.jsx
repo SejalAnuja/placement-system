@@ -72,7 +72,7 @@ export default function Applicants({ jobId, onBack }) {
                 <td className="border p-2">
                   {a.studentId?.resumeUrl ? (
                     <a
-                     href={`http://localhost:5000${
+                     href={`srv-d3tftm75r7bs73epgci0${
                           a.studentId.resumeUrl.startsWith("/")
                             ? a.studentId.resumeUrl
                             : "/" + a.studentId.resumeUrl
