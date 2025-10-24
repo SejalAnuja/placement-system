@@ -161,7 +161,7 @@ export default function AdminApplications() {
                   <td className="p-2 border text-center">
                     {a.studentId?.resumeUrl ? (
                       <a
-                        href={`http://localhost:5000${
+                        href={`srv-d3tftm75r7bs73epgci0${
                           a.studentId.resumeUrl.startsWith("/")
                             ? a.studentId.resumeUrl
                             : "/" + a.studentId.resumeUrl
